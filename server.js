@@ -3,7 +3,6 @@ var app = express();
 var bodyParser = require('body-parser');
 var cors = require('cors');
 
-// This middleware will parse the POST requests coming from an HTML form, and put the result in req.body.  Read the docs for more info!
 app.use(bodyParser.json());
 app.use(cors());
 
